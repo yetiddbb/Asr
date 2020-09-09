@@ -1,0 +1,27 @@
+{
+  "Asr.Asr_Add_Words|block": "添加識別詞組|詞組序號 %value|詞組拼音 %str",
+  "Asr.Asr_Clear_Buffer|block": "清除掉電緩存區",
+  "Asr.Asr_Set_RGB|block": "模塊RGB燈|紅色 %red|綠色 %green|藍色 %blue",
+  "Asr.Asr_Set_RGB2|block": "模塊RGB|選擇RGB燈顏色 %value", 
+  "Asr.Asr_Set_Mode|block": "設置模式為|模式 %mode_num",
+  "Asr.Asr_Gain|block": "設置靈敏度為|數值 %gain",
+  "Asr.Asr_Voice|block": "識別提示聲音開關設置|數值 %voice",
+  "Asr.Asr_Key_ON|block": "按鍵按下",
+  "Asr.Asr_Result|block": "識別結果",
+  
+  "Asr.Mode.cycle_mode|block": "循環模式",
+  "Asr.Mode.password_mode|block": "口令模式",
+  "Asr.Mode.key_mode|block": "按鍵模式",
+  "Asr.Voice_State.OFF|block": "關",
+  "Asr.Voice_State.ON|block": "開",
+  
+  "Asr.enColor.OFF|block": "滅",
+  "Asr.enColor.Red|block": "紅色",
+  "Asr.enColor.Green|block": "綠色",
+  "Asr.enColor.Blue|block": "藍色",
+  "Asr.enColor.White|block": "白色",
+  "Asr.enColor.Cyan|block": "青色",
+  "Asr.enColor.Pinkish|block": "品紅",
+  "Asr.enColor.Yellow|block": "黃色"
+}
+

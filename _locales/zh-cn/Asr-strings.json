@@ -1,0 +1,26 @@
+{
+  "Asr.Asr_Add_Words|block": "添加识别词组|词组序号 %value|词组拼音 %str",
+  "Asr.Asr_Clear_Buffer|block": "清除掉电缓存区",
+  "Asr.Asr_Set_RGB|block": "模块RGB灯|红色 %value1|绿色 %value2|蓝色 %value3",
+  "Asr.Asr_Set_RGB2|block": "模块RGB灯|选择RGB灯颜色 %value",  
+  "Asr.Asr_Set_Mode|block": "设置模式为|模式 %mode_num",
+  "Asr.Asr_Gain|block": "设置灵敏度为|数值 %gain",
+  "Asr.Asr_Voice|block": "识别提示声开关设置|数值 %voice",
+  "Asr.Asr_Key_ON|block": "按键按下",
+  "Asr.Asr_Result|block": "识别结果",
+  
+  "Asr.Mode.cycle_mode|block": "循环模式",
+  "Asr.Mode.password_mode|block": "口令模式",
+  "Asr.Mode.key_mode|block": "按键模式",
+  "Asr.Voice_State.OFF|block": "关",
+  "Asr.Voice_State.ON|block": "开",
+  
+  "Asr.enColor.OFF|block": "灭",
+  "Asr.enColor.Red|block": "红色",
+  "Asr.enColor.Green|block": "绿色",
+  "Asr.enColor.Blue|block": "蓝色",
+  "Asr.enColor.White|block": "白色",
+  "Asr.enColor.Cyan|block": "青色",
+  "Asr.enColor.Pinkish|block": "品红",
+  "Asr.enColor.Yellow|block": "黄色"
+}
