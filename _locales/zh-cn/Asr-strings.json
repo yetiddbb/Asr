@@ -6,6 +6,7 @@
   "Asr.Asr_Set_Mode|block": "设置模式为|模式 %mode_num",
   "Asr.Asr_Gain|block": "设置灵敏度为|数值 %gain",
   "Asr.Asr_Voice|block": "识别提示声开关设置|数值 %voice",
+  "Asr.Asr_Buzzer|block": "蜂鸣器设置|为 %buzzer_state",    
   "Asr.Asr_Key_ON|block": "按键按下",
   "Asr.Asr_Result|block": "识别结果",
   
@@ -14,6 +15,8 @@
   "Asr.Mode.key_mode|block": "按键模式",
   "Asr.Voice_State.OFF|block": "关",
   "Asr.Voice_State.ON|block": "开",
+  "Asr.Buzzer_State.OFF|block": "关",
+  "Asr.Buzzer_State.ON|block": "开",  
   
   "Asr.enColor.OFF|block": "灭",
   "Asr.enColor.Red|block": "红色",

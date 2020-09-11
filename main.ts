@@ -16,6 +16,8 @@ namespace Asr {
     const ASR_KEY_FLAG = 0x06               //用于按键模式下，设置启动识别模式
     const ASR_VOICE_FLAG = 0x07             //用于设置是否开启识别结果提示音
     const ASR_RESULT = 0x08                 //识别结果存放地址
+    const ASR_BUZZER = 0x09                 //蜂鸣器控制寄存器，写1开启，写0关闭
+
     
     const DELAY  = 150;//I2C之间延时间隔ms
 
@@ -33,6 +35,14 @@ namespace Asr {
         //% blockId="ON" block="ON""
         ON = 1
     }
+
+    export enum Buzzer_State {
+        //% blockId="OFF" block="OFF"
+        OFF = 0,
+        //% blockId="ON" block="ON""
+        ON = 1
+    }
+
 
     export enum enColor {
 
@@ -193,6 +203,21 @@ namespace Asr {
         pins.i2cWriteBuffer(I2C_ADDR, buf);
         basic.pause(DELAY);
     }
+
+
+    //% blockId=Asr_Asr_Buzzer block="Asr_Buzzer|buzzer_state %buzzer_state"
+    //% weight=94
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12 
+    export function Asr_Buzzer(buzzer_state: Buzzer_State): void {
+        let buf = pins.createBuffer(2);
+        buf[0] = ASR_BUZZER;
+        buf[1] = buzzer_state;
+        
+        pins.i2cWriteBuffer(I2C_ADDR, buf);
+        basic.pause(10);
+    }
+
 
 
     //% blockId=Asr_Asr_Key_ON block="Asr_Key_ON"

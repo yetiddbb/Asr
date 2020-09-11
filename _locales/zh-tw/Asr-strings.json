@@ -6,6 +6,7 @@
   "Asr.Asr_Set_Mode|block": "設置模式為|模式 %mode_num",
   "Asr.Asr_Gain|block": "設置靈敏度為|數值 %gain",
   "Asr.Asr_Voice|block": "識別提示聲音開關設置|數值 %voice",
+  "Asr.Asr_Buzzer|block": "蜂鳴器設置|為 %buzzer_state", 
   "Asr.Asr_Key_ON|block": "按鍵按下",
   "Asr.Asr_Result|block": "識別結果",
   
@@ -14,6 +15,9 @@
   "Asr.Mode.key_mode|block": "按鍵模式",
   "Asr.Voice_State.OFF|block": "關",
   "Asr.Voice_State.ON|block": "開",
+  "Asr.Buzzer_State.OFF|block": "關",
+  "Asr.Buzzer_State.ON|block": "開", 
+  
   
   "Asr.enColor.OFF|block": "滅",
   "Asr.enColor.Red|block": "紅色",
