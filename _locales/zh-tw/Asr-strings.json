@@ -9,6 +9,8 @@
   "Asr.Asr_Buzzer|block": "蜂鳴器設置|為 %buzzer_state", 
   "Asr.Asr_Key_ON|block": "按鍵按下",
   "Asr.Asr_Result|block": "識別結果",
+  "Asr.Asr_NUM_Cleck|block": "模塊錄入詞組數",  
+  "Asr.Cleck_Asr_Num|block": "檢驗模塊錄入詞組數|詞組數為 %asr_num",  
   
   "Asr.Mode.cycle_mode|block": "循環模式",
   "Asr.Mode.password_mode|block": "口令模式",
