@@ -4,9 +4,7 @@
     "description": "Extension for YahBoom ASR V1.0.1",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel"
-	
+        "core": "*"	
 
     },
     "files": [
